@@ -828,10 +828,13 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  
+  
 }
 
+
 .contact .info {
-  padding: 30px;
+  padding: 20px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -840,8 +843,8 @@ section {
 .contact .info i {
   font-size: 20px;
   color: #149ddd;
-  float: left;
-  width: 44px;
+  float:left;
+  width:44px ;
   height: 44px;
   background: #dff3fc;
   display: flex;
@@ -866,13 +869,17 @@ section {
   color: #173b6c;
 }
 
-.contact .info .email p {
-  padding-top: 5px;
+.contact .social-links{
+  padding-top: 120px;
+  padding-left: 50%;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #173b6c;
+  height: 36px;
+  display: inline-block;
+
 }
 
-.contact .info .social-links {
-  padding-left: 60px;
-}
 
 .contact .info .social-links a {
   font-size: 18px;
@@ -900,11 +907,7 @@ section {
   background: #149ddd;
   color: #fff;
 }
-.feedback{
-  text-align: right;
-  height: auto;
-  width: 50%;
-}
+
 
 @-webkit-keyframes animate-loading {
   0% {
